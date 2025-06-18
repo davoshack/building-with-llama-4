@@ -9,6 +9,10 @@ __pycache__/
 # Distribution / packaging
 .Python
 .python-version
+
+# UV lock file
+uv.lock
+
 build/
 develop-eggs/
 dist/
