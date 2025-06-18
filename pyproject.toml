@@ -1,0 +1,7 @@
+[project]
+name = "building-with-llama-4"
+version = "0.1.0"
+description = "Building with Llama 4: A Practical Guide to Building AI Applications"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
