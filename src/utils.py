@@ -1,4 +1,5 @@
 from llama_api_client import LlamaAPIClient
+from together import Together
 from ai_custom_utils.helper import get_llama_api_key, get_together_api_key
 
 def llama4(prompt, image_urls=[], model="Llama-4-Scout-17B-16E-Instruct-FP8"): # Llama-4-Maverick-17B-128E-Instruct-FP8
@@ -23,7 +24,6 @@ def llama4(prompt, image_urls=[], model="Llama-4-Scout-17B-16E-Instruct-FP8"): #
   return response.completion_message.content.text
 
 
-from together import Together
 def llama4_together(prompt, image_urls=[], model="meta-llama/Llama-4-Scout-17B-16E-Instruct"):
   image_urls_content = []
   for url in image_urls:
